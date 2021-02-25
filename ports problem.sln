@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library", "Library\Library.csproj", "{DD6E25C7-DA35-46E1-8A51-895CB6F478A1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProjectLibReference", "TestProjectLibReference\TestProjectLibReference.csproj", "{431E75BD-C36A-4BA7-AB02-126D59696E99}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DD6E25C7-DA35-46E1-8A51-895CB6F478A1} = {DD6E25C7-DA35-46E1-8A51-895CB6F478A1}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{875CC63E-CEA2-4F7C-B034-6887B0C06A6E}"
 	ProjectSection(SolutionItems) = preProject
