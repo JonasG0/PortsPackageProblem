@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Reference Include="Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Reference Include="Library">
         <HintPath>$(OutputPath)\Library.dll</HintPath>
       </Reference>
     </ItemGroup>
